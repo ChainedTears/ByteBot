@@ -20,7 +20,7 @@ git clone https://github.com/ChainedTears/ByteBot
 ```bash
 cd ByteBot
 ```
-Install the necessary dependencies:
+3. Install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
