@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ---
 
 # Usage:
-1. Open the ByteBot folder in your preferred text editor.
+1. Open the ByteBot folder and launch main.py in your preferred text editor.
 2. Replace ``TOKEN = "REPLACE_HERE"`` with your actual [Discord Token](https://www.androidauthority.com/get-discord-token-3149920/)
 3. Replace ``api_key = "API_KEY"`` with your personal API key from the [Groq Console](https://console.groq.com/keys)
 4. Configure other settings and run the script:
