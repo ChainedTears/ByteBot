@@ -1,0 +1,6 @@
+groq
+discord.py-self
+logging
+datetime
+re
+subprocess
