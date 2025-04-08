@@ -31,7 +31,7 @@ pip install -r requirements.txt
 1. Open the ByteBot folder in your preferred text editor.
 2. Replace ``TOKEN = "REPLACE_HERE"`` with your actual Discord token.
 3. Replace ``api_key = "API_KEY"`` with your personal API key from Groq.com.
-4. Run the script:
+4. Configure other settings and run the script:
 ```bash
 python3 main.py
 ```
