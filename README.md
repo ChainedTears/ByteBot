@@ -1,7 +1,7 @@
 ![Demo Video](demo.gif)
 
 # ByteBot
-A Discord Selfbot powered by Artificial Intelligence that responds to Direct Messages (DMs). It integrates with the Groq API and utilizes discord.py-self for seamless operation.
+A Discord self-bot that responds to whitelisted user DMs and message replies using Groq's API. Interactions are logged for tracking purposes. Use at your own risk as self-bots violate Discord’s Terms of Service.
 
 ---
 
