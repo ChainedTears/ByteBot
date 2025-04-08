@@ -7,7 +7,7 @@ import subprocess
 groq_client = Groq(api_key="GROQ_API_KEY")
 TOKEN = "DISCORD_TOKEN"
 aimodel = "llama3-70b-8192"
-PREFIX = "!"
+delay = True
 discord_client = discord.Client(self_bot=True)
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 ping = subprocess.run(['ping', '-c', '1', 'google.com'], stdout=subprocess.PIPE).stdout.decode('utf-8')
@@ -58,7 +58,8 @@ async def on_message(message):
             reply = re.sub(r'<think>.*?</think>', '', chat_completion.choices[0].message.content)
             user_conversations[user_id].append({"role": "assistant", "content": reply})
             for i in range(0, len(reply), 2000):
-                # await asyncio.sleep(random.randint(1, 2))
+                if delay:
+                    await asyncio.sleep(random.randint(1, 6))
                 await message.channel.send(reply[i:i + 2000])
 
             print(f"Reply: {message.author} - Reply: {reply[:2000]}")
