@@ -6,7 +6,7 @@ A Discord self-bot that responds to whitelisted user DMs and message replies usi
 ---
 
 # Requirements:
-- Python 3.11 or below
+- Python 3.11.8 or below
 
 ---
 
