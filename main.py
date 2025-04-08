@@ -20,14 +20,12 @@ Make sure to balance realism and clarity without over-committing to any specific
 Current time: {current_time}PST
 Ping: {ping}ms
 """
+WHITELISTED_USER_IDS = []
+# Seperated by integers, EX:
+# [1219440183997501530, 116934657696833953]
 
 
 logging.basicConfig(filename='bot_logs.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
-
-WHITELISTED_USER_IDS = []
-
-# Seperated by integers, EX:
-# [1219440183997501530, 116934657696833953]
 
 user_conversations = {}
 
